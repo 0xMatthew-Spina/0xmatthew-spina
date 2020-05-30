@@ -15,7 +15,7 @@ social:
         - 'https://twitter.com/Matthewspina3'
         - 'https://github.com/Matthew-Spina'
 google_site_verification: google_meta_tag_verification
-baseurl: ""
+baseurl: "/Blog/"
 timezone: America/Chicago
 google_analytics:
     id: ""
