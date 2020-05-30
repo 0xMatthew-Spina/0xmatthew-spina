@@ -64,14 +64,14 @@
 
 
   {% if page.layout == 'home' %}
-    <link rel="preload" href="{{ site.baseurl }}/assets/css/home.css" as="style">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/home.css">
+    <link rel="preload" href="/Blog/assets/css/home.css" as="style">
+    <link rel="stylesheet" href="/Blog/assets/css/home.css">
 
   {% elsif page.layout == 'page' %}
 
     {% if page.title == 'Categories' %}
-      <link rel="preload" href="{{ site.baseurl }}/assets/css/categories.css" as="style">
-      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/categories.css">
+      <link rel="preload" href="/Blog/assets/css/categories.css" as="style">
+      <link rel="stylesheet" href="/Blog/assets/css/categories.css">
 
     {% elsif page.title == 'Tags' %}
       <link rel="preload" href="{{ site.baseurl }}/assets/css/tags.css" as="style">
