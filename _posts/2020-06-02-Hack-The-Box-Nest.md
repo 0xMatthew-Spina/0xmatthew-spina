@@ -152,3 +152,5 @@ smbget -rR smb://10.10.10.178/Secure$/IT/Carl/ -U TempUser
 ```
 you can move the project files from /Secure$/IT/Carl//VB Projects/WIP/RU/RUScanner/  to [dotnetfiddle.net](https://dotnetfiddle.net/) this lets us use the code to decrypt the encrypted password in **RU_Config.xml**
 
+still seting up the blog and writing the post sorry
+
