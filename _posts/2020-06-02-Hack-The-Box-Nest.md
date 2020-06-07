@@ -1,11 +1,12 @@
 ---
 title: Hack the box Nest walkthrough 
 date: 2020-06-02 08:46:00 +0800
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+categories: [HackTheBox, windows]
 comments: true
 tags: [SMB,HackTheBox,Nest,Dnspy,.net]     # TAG names should always be lowercase
 ---
 # overview 
+![htb-Nest](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp6n8OlbIe-xvrVv2gBLv8tpYLQuoiAIfZ-_lRWX_PX7T1wWBF&usqp=CAU)
 tools used: nmap,smbclient,smbget, dot net fiddle, dnspy
 
 # service enumeration
