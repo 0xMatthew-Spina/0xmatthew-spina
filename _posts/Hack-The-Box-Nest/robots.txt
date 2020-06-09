@@ -1,6 +1,5 @@
 
 User-agent: *
 allow: *
-Disalow: /norobots/
 
 Sitemap: https://matthew-spina.github.io/Blog/sitemap.xml
