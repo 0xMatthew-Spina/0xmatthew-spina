@@ -1,5 +1,0 @@
-
-User-agent: *
-allow: *
-
-Sitemap: https://matthew-spina.github.io/Blog/sitemap.xml
