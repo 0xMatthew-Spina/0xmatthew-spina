@@ -12,4 +12,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://matthew-spina.github.io/Blog/sitemap.xml
+Sitemap: https://0xmatthew-spina.github.io/sitemap.xml
