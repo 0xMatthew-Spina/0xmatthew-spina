@@ -71,29 +71,29 @@
 
     {% elsif page.title == 'Tags' %}
       <link rel="preload" href="/assets/css/tags.css" as="style">
-      <link rel="stylesheet" href="/Blog/assets/css/tags.css">
+      <link rel="stylesheet" href="/assets/css/tags.css">
 
     {% elsif page.title == 'Archives' %}
-      <link rel="preload" href="/Blog/assets/css/archives.css" as="style">
-      <link rel="stylesheet" href="/Blog/assets/css/archives.css">
+      <link rel="preload" href="/assets/css/archives.css" as="style">
+      <link rel="stylesheet" href="/assets/css/archives.css">
 
     {% else %}
-      <link rel="preload" href="/Blog/assets/css/page.css" as="style">
-      <link rel="stylesheet" href="/Blog/assets/css/page.css">
+      <link rel="preload" href="/assets/css/page.css" as="style">
+      <link rel="stylesheet" href="/assets/css/page.css">
 
     {% endif %}
 
   {% elsif page.layout == 'category' or page.layout == 'tag' %}
-      <link rel="preload" href="/Blog/assets/css/category-tag.css" as="style">
-      <link rel="stylesheet" href="/Blog/assets/css/category-tag.css">
+      <link rel="preload" href="/assets/css/category-tag.css" as="style">
+      <link rel="stylesheet" href="/assets/css/category-tag.css">
 
   {% elsif page.layout == 'post' %}
-    <link rel="preload" as="style" href="/Blog/assets/css/post.css">
-    <link rel="stylesheet" href="/Blog/assets/css/post.css">
+    <link rel="preload" as="style" href="/assets/css/post.css">
+    <link rel="stylesheet" href="/assets/css/post.css">
 
     {% if site.toc and page.toc %}
-      <link rel="preload" as="style" href="/Blog/assets/lib/bootstrap-toc-1.0.1/bootstrap-toc.min.css">
-      <link rel="stylesheet" href="/Blog/assets/lib/bootstrap-toc-1.0.1/bootstrap-toc.min.css" />
+      <link rel="preload" as="style" href="/assets/lib/bootstrap-toc-1.0.1/bootstrap-toc.min.css">
+      <link rel="stylesheet" href="/assets/lib/bootstrap-toc-1.0.1/bootstrap-toc.min.css" />
     {% endif %}
 
     {% if page.math %}
@@ -109,24 +109,24 @@
 
   <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.4.1,npm/popper.js@1.15.0,npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
 
-  <script src="/Blog/assets/js/dist/commons.js" async></script>
+  <script src="/assets/js/dist/commons.js" async></script>
 
   {% if page.layout == 'home' or page.layout == 'post' %}
-    <script src="/Blog/assets/js/dist/timeago.min.js" async></script>
+    <script src="/assets/js/dist/timeago.min.js" async></script>
     {% if site.google_analytics.pv.enabled %}
-      <script src="/Blog/assets/data/pv-data.json"></script>
-      <script src="/Blog/assets/lib/countUp.min.js" async></script>
-      <script src="/Blog/assets/js/dist/pageviews.min.js" async></script>
+      <script src="/assets/data/pv-data.json"></script>
+      <script src="/assets/lib/countUp.min.js" async></script>
+      <script src="/assets/js/dist/pageviews.min.js" async></script>
     {% endif %}
   {% endif %}
 
   {% if site.toc and page.toc and page.layout == 'post' %}
-    <link rel="preload" as="script" href="/Blog/assets/lib/bootstrap-toc-1.0.1/bootstrap-toc.min.js">
-    <script src="/Blog/assets/lib/bootstrap-toc-1.0.1/bootstrap-toc.min.js" async></script>
-    <script src="/Blog/assets/js/dist/toc.min.js" async></script>
+    <link rel="preload" as="script" href="/assets/lib/bootstrap-toc-1.0.1/bootstrap-toc.min.js">
+    <script src="/assets/lib/bootstrap-toc-1.0.1/bootstrap-toc.min.js" async></script>
+    <script src="/assets/js/dist/toc.min.js" async></script>
   {% endif %}
 
-  <script src="/Blog/assets/js/dist/tooltip-loader.min.js" async></script>
+  <script src="/assets/js/dist/tooltip-loader.min.js" async></script>
 
   <!-- PWA -->
   {% if jekyll.environment == 'production' %}
